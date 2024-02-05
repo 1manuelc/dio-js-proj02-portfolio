@@ -170,9 +170,59 @@ ul#languages li {
 	list-style: disc;
 }
 
+ul#repositories li {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: start;
+}
+
+#repositories .repo__header h4 {
+	font-weight: 700;
+}
+
+#repositories li:first-child {
+	margin-top: 1rem;
+}
+
+#repositories .repo__header {
+	display: flex;
+	gap: 1.2rem;
+}
+
+#repositories .repo__link {
+	padding: 1.4rem 0;
+
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	opacity: 0.65;
+
+	transition: opacity 0.3s linear;
+}
+
+#repositories .repo__link:hover {
+	opacity: 0.3;
+}
+
+#repositories .repo__header,
+#repositories .repo__link {
+	width: 35vw;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
 @media screen and (max-width: 1000px) {
 	main {
 		width: 75vw;
+	}
+
+	#repositories .repo__header,
+	#repositories .repo__link {
+		width: 60vw;
 	}
 }
 
