@@ -47,7 +47,7 @@ function updateHeader(profile) {
 			`;
 			})
 			.join('\n') +
-		'</div>';
+		'\n</div>';
 }
 
 function updateHardSkills(hardSkillsList) {
