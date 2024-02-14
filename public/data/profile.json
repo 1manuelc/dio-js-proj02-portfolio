@@ -1,0 +1,91 @@
+{
+  "name": "Manuel",
+  "photo": "https://avatars.githubusercontent.com/u/110443154?v=4",
+  "job": "Estudante de Ciência da Computação",
+  "location": "Croatá, Ceará - BR",
+  "email": "manuelwn21@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Java",
+        "fa_icon": "fa-brands fa-java"
+      },
+      {
+        "name": "React",
+        "fa_icon": "fa-brands fa-react"
+      },
+      {
+        "name": "JavaScript",
+        "fa_icon": "fa-brands fa-js"
+      },
+      {
+        "name": "HTML5",
+        "fa_icon": "fa-brands fa-html5"
+      },
+      {
+        "name": "CSS3",
+        "fa_icon": "fa-brands fa-css3-alt"
+      },
+      {
+        "name": "GIT",
+        "fa_icon": "fa-brands fa-git-alt"
+      },
+      {
+        "name": "Figma",
+        "fa_icon": "fa-brands fa-figma"
+      }
+    ],
+    "softSkills": [
+      "Comunicação eficiente",
+      "Facilidade com trabalho em equipe",
+      "Organização",
+      "Aprendizado rápido",
+      "Familiaridade de anos com Design"
+    ]
+  },
+  "languages": [
+    "Português BR (Nativo)",
+    "Inglês (CEFR A2)"
+  ],
+  "portfolio": [
+    {
+      "name": "Perfil de Design",
+      "url": "https://instagram.com/manuelc.design/",
+      "target": "Instagram"
+    },
+    {
+      "name": "dio-js-proj02-portfolio",
+      "url": "https://github.com/1manuelc/dio-js-proj02-portfolio/",
+      "target": "GitHub"
+    },
+    {
+      "name": "dio-js-proj01-pokedex",
+      "url": "https://github.com/1manuelc/dio-js-proj01-pokedex/",
+      "target": "GitHub"
+    }
+  ],
+  "education": [
+    {
+      "name": "Graduação em Ciência da Computação",
+      "institution": "IFCE - Campus Tianguá",
+      "abbreviation_for": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará",
+      "period": "2022 - Atualmente"
+    },
+    {
+      "name": "Ensino Médio Completo",
+      "institution": "EEMCFR",
+      "abbreviation_for": "Escola de Ensino Médio de Croatá Flávio Rodrigues",
+      "period": "2019 - 2021"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Designer Gráfico / Freelancer",
+      "period": "2019 - 2023"
+    },
+    {
+      "name": "Designer Gráfico / RM Print&Arte",
+      "period": "2021 - 2022"
+    }
+  ]
+}

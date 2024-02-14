@@ -145,6 +145,25 @@ svg.fa-chevron-down {
 	transform: rotate(180deg);
 }
 
+ul.list__default {
+	padding: 0.8rem;
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	gap: 1.4rem;
+	text-align: start;
+}
+
+.list__default li {
+	list-style: disc;
+}
+
+.list__default:is(#education) li,
+.list__default:is(#jobs) li {
+	list-style: none;
+	line-height: 3rem;
+}
+
 ul#languages {
 	padding-left: 2rem;
 	display: flex;
@@ -152,7 +171,7 @@ ul#languages {
 	gap: 2rem;
 }
 
-ul#skills {
+ul#skills__hard {
 	width: 100%;
 	display: flex;
 	justify-content: flex-start;
@@ -161,7 +180,7 @@ ul#skills {
 	gap: 2.4rem;
 }
 
-ul#skills svg {
+ul#skills__hard svg {
 	font-size: 4rem;
 }
 
@@ -213,6 +232,11 @@ ul#repositories li {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+}
+
+#education svg,
+#jobs svg {
+	margin-right: 1rem;
 }
 
 @media screen and (max-width: 1000px) {
