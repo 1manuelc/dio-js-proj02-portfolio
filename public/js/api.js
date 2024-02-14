@@ -35,7 +35,6 @@ function updateHeader(profile) {
 	`;
 
 	const socialLinksList = profile.links;
-	console.log(socialLinksList);
 	header.innerHTML +=
 		'<div class="header__links">' +
 		socialLinksList

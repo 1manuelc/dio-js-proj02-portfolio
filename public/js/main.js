@@ -7,5 +7,4 @@
 
 	const profile = await getProfile();
 	updatePageInfos(profile);
-	console.log(profile);
 })();
