@@ -4,6 +4,28 @@
   "job": "Estudante de Ciência da Computação",
   "location": "Croatá, Ceará - BR",
   "email": "manuelwn21@gmail.com",
+  "links": [
+    {
+      "name": "Instagram",
+      "fa_icon": "fa-brands fa-instagram",
+      "url": "https://instagram.com/1manuelc/"
+    },
+    {
+      "name": "Linkedin",
+      "fa_icon": "fa-brands fa-linkedin",
+      "url": "https://www.linkedin.com/in/1manuelc/"
+    },
+    {
+      "name": "GitHub",
+      "fa_icon": "fa-brands fa-github",
+      "url": "https://github.com/1manuelc/"
+    },
+    {
+      "name": "Behance",
+      "fa_icon": "fa-brands fa-behance",
+      "url": "https://www.behance.net/eumanuelc"
+    }
+  ],
   "skills": {
     "hardSkills": [
       {

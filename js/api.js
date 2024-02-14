@@ -33,6 +33,21 @@ function updateHeader(profile) {
 			</ul>
 		</div>
 	`;
+
+	const socialLinksList = profile.links;
+	console.log(socialLinksList);
+	header.innerHTML +=
+		'<div class="header__links">' +
+		socialLinksList
+			.map((link) => {
+				return `
+				<a href="${link.url}" target="_blank">
+					<i class="${link.fa_icon}"></i>
+				</a>
+			`;
+			})
+			.join('\n') +
+		'</div>';
 }
 
 function updateHardSkills(hardSkillsList) {
