@@ -1,9 +1,12 @@
 {
-  "homepage": "https://1manuelc.github.io/dio-js-proj02-portfolio",
   "name": "dio-js-proj02-portfolio",
-  "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.0.8"
+  },
+  "homepage": "https://1manuelc.github.io/dio-js-proj02-portfolio",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,11 +14,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "vite": "^5.0.8"
-  },
-  "dependencies": {
-    "date-fns": "^3.3.1"
-  }
+  "type": "module"
 }
